@@ -41,7 +41,7 @@ public class Student {
         this.gender = value;
     }
 
-    public void printInfo(){
+    public void printInfo() {
         System.out.println("--------------------------------------");
         System.out.println("| ID |         Name           | Male |");
         System.out.printf("| %d | %s | %b |\n", this.id, this.name, this.gender);
