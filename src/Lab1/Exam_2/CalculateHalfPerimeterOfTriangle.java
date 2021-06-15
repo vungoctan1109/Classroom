@@ -1,7 +1,7 @@
-package demo;
+package Lab1.Exam_2;
 //Lab 1.2
 
-import demo.entity.HalfPerimeterOfTriangle;
+import Lab1.Exam_2.entity.HalfPerimeterOfTriangle;
 
 import java.util.Scanner;
 

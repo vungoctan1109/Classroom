@@ -1,4 +1,4 @@
-package demo.entity;
+package Lab1.Exam_2.entity;
 
 public class HalfPerimeterOfTriangle {
     public double calculateHalfPerimeterOfTriangle(double a, double b, double c) {

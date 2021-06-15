@@ -1,7 +1,7 @@
-package demo;
+package Lab1.Exam_3;
 // Lab 1.3
 
-import demo.entity.MinAndMax;
+import Lab1.Exam_3.entity.MinAndMax;
 
 
 public class FindMinMax {

@@ -1,4 +1,4 @@
-package demo.entity;
+package Lab1.Exam_3.entity;
 
 public class MinAndMax {
     public int max(int[] array) {

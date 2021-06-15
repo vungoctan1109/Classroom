@@ -1,7 +1,7 @@
-package demo;
+package Lab1.Exam_1;
 // Lab 1
 
-import demo.entity.DecemberBonus;
+import Lab1.Exam_1.entity.DecemberBonus;
 
 import java.util.Scanner;
 
@@ -10,9 +10,9 @@ public class DecemberBonusCalculate {
         Scanner scanner = new Scanner(System.in);
         DecemberBonus decemberBonus = new DecemberBonus();
         System.out.print("Please enter the number of years of experience: ");
-        double yearExperience = scanner.nextDouble();
+        float yearExperience = scanner.nextFloat();
         System.out.print("Please enter the number of years working for the company: ");
-        double yearWork = scanner.nextDouble();
+        float yearWork = scanner.nextFloat();
         System.out.printf("Your December Bonus is: %.1f", decemberBonus.decemberBonusCalculate(yearExperience, yearWork));
     }
 }
