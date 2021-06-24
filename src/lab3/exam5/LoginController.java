@@ -6,10 +6,10 @@ public class LoginController {
     public static void main(String[] args) {
         Console console = System.console();
         String username = console.readLine("username: ");
-        char [] password = console.readPassword("password: ");
-        if (username.equals("fpt") && password.length==6) {
+        char[] password = console.readPassword("password: ");
+        if (username.equals("fpt") && password.length == 6) {
             console.printf("ok");
-        }else {
+        } else {
             console.printf("not ok");
         }
     }
