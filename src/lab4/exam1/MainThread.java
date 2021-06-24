@@ -1,8 +1,8 @@
-package lab4;
+package lab4.exam1;
 
-import lab4.entity.SportCar;
+import lab4.exam1.entity.SportCar;
 
-public class Exam1 {
+public class MainThread {
     public static void main(String[] args) {
         SportCar sc = new SportCar();
         sc.accelerate();
